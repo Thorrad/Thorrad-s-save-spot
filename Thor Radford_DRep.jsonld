@@ -1,0 +1,63 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP100:IdentityReference",
+            "Link": "CIP100:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "Thor Radford",
+    "motivations": "I am motivated by my desire to see what Cardano can offer to the world. The ideals of the protocol are larger than only \"Number go UP!\" Cardano has always attempted to bring value to the various communities it serves by being a currency, a means of building identity systems, and being a jumping off point for DeFi and other decentralized governance. I want to enable the new governing body to continue that work. ",
+    "objectives": "I have been involved in Cardano since 2018 when I found out about how it was promising to fulfill most of the ideals of a real Cryptocurrency with safe fast and decentralized transactions, and was attempting to go further by adding staking and governance. SInce then the ecosystem has grown and I have become even more impressed by the methods and systems put in place in the protocol that has been built so far. I want to help Cardano get to it's \"next level\" by shaping the nacent government. ",
+    "paymentAddress": "addr1qyasw2vnnfpnaxjcae7hz7lm9mykc38p4zqs82ev0ks0yvenfrj8kukfvn54f9c2fup842ajkm0a5gpltk9wam0qn34szg4ejq",
+    "qualifications": "I am a lay person with a deep sense of marketing and branding. My lack of coding skills are more than made up for by my deep connection to branding and understanding of marketing and advertising. I am a sole proprietor of my own photography and video business that specializes in telling stories of businesses at the forefront of science and technology as well as hospitality. ",
+    "references": []
+  }
+}
